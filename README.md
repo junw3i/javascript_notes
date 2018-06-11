@@ -13,3 +13,6 @@ If the Engine is performing an LHS look-up and arrives at the top floor (global 
 *means "go get the value of..."*
 
 If an RHS look-up fails to ever find a variable, anywhere in the nested Scopes, this results in a `ReferenceError` being thrown by the Engine. It's important to note that the error is of the type `ReferenceError`.
+
+
+Avoiding using `eval(..)` and `with`
