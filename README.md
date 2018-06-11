@@ -16,3 +16,5 @@ If an RHS look-up fails to ever find a variable, anywhere in the nested Scopes, 
 
 
 Avoiding using `eval(..)` and `with`
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md
