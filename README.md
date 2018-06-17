@@ -43,3 +43,6 @@ function helloWorld() {
   console.log('hello world');
 })()
 ```
+
+** Hoisting **
+function declaration are hoisted before variables. function expressions are not hoisted
