@@ -36,3 +36,10 @@ function helloWorld() {
   console.log('hello world');
 }
 ```
+
+*I*mmediately *I*nvoked *F*unction *E*xpression
+```
+(function helloWorld() {
+  console.log('hello world');
+})()
+```
