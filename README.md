@@ -18,3 +18,21 @@ If an RHS look-up fails to ever find a variable, anywhere in the nested Scopes, 
 Avoiding using `eval(..)` and `with`
 
 https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md
+
+**Avoid using anonymous function, use inline function expressions**
++ anonymous functions have no name to display in stacktraces, making debugging harder
++ unable to refer itself (e.g. recursion / to unbind event handlers)
+
+Anonymous function: 
+```
+function(){
+  console.log('hello world!');
+}
+```
+
+Inline function:
+```
+function helloWorld() {
+  console.log('hello world');
+}
+```
